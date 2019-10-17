@@ -1,0 +1,267 @@
+html {
+  font-size: 10px;
+  overflow: scroll;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Century Gothic", BlinkMacSystemFont, "Segoe UI", "Roboto",
+    "Helvetica Neue", Arial, sans-serif;
+  font-size: 1.6rem;
+  line-height: 1.5;
+  color: black;
+  margin: 0;
+  z-index: 2;
+}
+
+.evoimage {
+  max-width: 90%;
+  display: block;
+  height: auto;
+  margin: 0 auto;
+  text-align: center;
+  box-shadow: 10px 10px 15px;
+}
+
+.img-div{
+  text-align: center;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+.more-info a:hover {
+  text-decoration: underline;
+}
+
+.img-caption {
+  font-size: 100%;
+  text-align: center;
+  color: black;
+  font-weight: 600;
+}
+
+h3 {
+  font-size: 120%;
+  font-weight: 800;
+  color: black;
+  text-align: center;
+}
+
+.more-info {
+  font-size: 120%;
+  text-align: center;
+  width: 100%;
+}
+
+.navlogo {
+  width: 100px;
+  box-shadow: none;
+  float: left;
+  margin-left: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.navcontainer {
+  background: #f29c27;
+  width: 1fr;
+}
+
+.navcontainer::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+nav ul {
+  float: right;
+  list-style: none;
+  padding-right: 60px;
+}
+
+nav li {
+  display: inline-block;
+  margin-left: 50px;
+  text-transform: uppercase;
+  font-weight: bold;
+  position: relative;
+  padding-top: 30px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #444;
+  font-size: 20px;
+}
+
+nav a::before {
+  content: "";
+  display: block;
+  height: 3px;
+  width: 0%;
+  background-color: black;
+  position: absolute;
+  top: 20px;
+}
+
+nav a:hover::before {
+  content: "";
+  top: 20px;
+  width: 100%;
+  transition: all ease-in-out 250ms;
+}
+
+.tribute-info ul {
+  text-align: center;
+}
+
+.tribute-info li {
+  list-style: none;
+  padding: 10px 15px;
+  margin: 10px;
+  background: rgba(160, 160, 160, 0.2);
+  border-radius: 40px;
+  font-size: 90%;
+  display: inline-block;
+  width: 70%;
+}
+
+.tribute-info li:hover {
+  background: rgba(255, 165, 0, 0.7);
+  transition: all ease-in-out 300ms;
+  font-weight: bold;
+  font-size: 110%;
+  width: 73%;
+}
+
+.evotitles{
+  text-align: center;
+}
+
+.gametitles{
+  min-height: 50vh;
+
+}
+.gametable{
+  display:grid;
+  height: 100%;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 200px);
+  grid-gap: 5px;
+  margin-left: 20px;
+  margin-right: 20px;
+  justify-content: center;
+}
+.gametable-item{
+  display: flex;
+  color: white;
+  font-weight: bold;
+  text-align: center;
+  justify-content: center;
+  align-items:center;
+  cursor: pointer;
+  transition-property: all;
+  transition-duration: 300ms;
+  transition-timing-function: ease-in-out;
+  font-size: 18px;
+}
+
+.gametable-item:hover{
+   font-size: 23px;
+   background-color: #404040;
+}
+
+.game1{
+  background-size:cover;
+  background-position: center;
+  background-image: url("https://static.trueplookpanya.com/tppy/member/m_557500_560000/559338/cms/images/mag1/smash_illo.0.jpg");
+  background-color: darkgray;
+  background-blend-mode: multiply;
+}
+
+.game2{
+  background-size:cover;
+  background-position: center;
+  background-image: url("https://www.wallpaperup.com/uploads/wallpapers/2017/05/14/1089779/cc71e83837818a7caa3f6bd4571d9008-700.jpg");
+  background-color: darkgray;
+  background-blend-mode: multiply;
+}
+
+.game3{
+  background-size:cover;
+  background-position: center;
+  background-image: url("https://cdn-biiinge.konbini.com/files/2018/03/streetfighter-feat.jpg");
+  background-color: darkgray;
+  background-blend-mode: multiply;
+}
+
+.game4{
+  background-size:cover;
+  background-position: center;
+  background-image: url("https://drakulus.com/wp-content/uploads/2018/11/soulcalibur-vi-review-01-1024x576.png");
+  background-color: darkgray;
+  background-blend-mode: multiply;
+}
+
+.game5{
+  background-size:cover;
+  background-position: center;
+  background-image: url("https://catwithmonocle.com/wp-content/uploads/2018/01/dragon-ball-fighterz-cover-art.jpg");
+  background-color: darkgray;
+  background-blend-mode: multiply;
+}
+
+.game6{
+  background-size:cover;
+  background-position: center;
+  background-image: url("https://www.pdvg.it/wp-content/uploads/2019/03/mortal-kombat-11-copertina-pdvg.jpg");
+  background-color: darkgray;
+  background-blend-mode: multiply;
+}
+
+.game7{
+  background-size:cover;
+  background-position: center;
+  background-image: url("https://www.arcsystemworks.jp/unist/images/img-main.jpg");
+  background-color: darkgray;
+  background-blend-mode: multiply;
+}
+
+.game8{
+  background-size:cover;
+  background-position: center;
+  background-image: url("https://www.godisageek.com/wp-content/uploads/bb-cross-tag-featured-1024x576.jpg");
+  background-color: darkgray;
+  background-blend-mode: multiply;
+}
+
+.game9{
+  background-size:cover;
+  background-position: center;
+  background-image: url("https://store-images.s-microsoft.com/image/apps.55132.14083273516358866.bf378b1d-ccfb-4fa8-bacd-fb791920e4d2.b944b0f1-346d-46c5-998d-5d6e4496e57b?mode=scale&q=90&h=720&w=1280&format=jpg");
+  background-color: darkgray;
+  background-blend-mode: multiply;
+}
+
+
+@media (max-width: 480px) {
+  #img-div {
+    max-width: 100%;
+    margin: 0 auto;
+  }
+
+  img {
+    width: 80%;
+  }
+
+  #img-caption {
+    font-size: 14px;
+  }
+
+  #more-info {
+    font-size: 18px;
+  }
+}
